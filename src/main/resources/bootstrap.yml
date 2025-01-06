@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: restaurant-service
+
+  cloud:
+    config:
+      import: configserver
+      url: ${configServerUrl}
