@@ -46,7 +46,7 @@ dependencies {
 	annotationProcessor 'jakarta.persistence:jakarta.persistence-api'
 
 	implementation 'com.querydsl:querydsl-jpa:5.1.0:jakarta'
-	annotationProcessor'com.querydsl:querydsl-apt:5.1.0:jakarta'
+	annotationProcessor 'com.querydsl:querydsl-apt:5.1.0:jakarta'
 
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.locationtech.proj4j:proj4j:1.1.1'

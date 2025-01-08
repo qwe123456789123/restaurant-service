@@ -4,4 +4,4 @@ spring:
 
   cloud:
     config:
-      uri: ${configServ erUrl}
+      uri: ${configServerUrl}
